@@ -1,0 +1,6 @@
+{
+  "projects": [ "sql", "tests" ],
+  "sdk": {
+    "version": "5.0.405"
+  }
+}
