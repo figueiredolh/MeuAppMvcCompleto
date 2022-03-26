@@ -5,14 +5,14 @@ using System.Threading.Tasks;
 
 namespace DevIO.App.Models
 {
-    public class Fornecedor
+    public class Fornecedor : Entity
     {
         public string Nome { get; set; }
         public string Documento { get; set; }
         public Endereco Endereco { get; set; }
         public TipoFornecedor TipoFornecedor { get; set; }
         public bool Ativo { get; set; }
-
+            
         //EF Relation
         public IEnumerable<Produto> Produtos { get; set; }
     }
