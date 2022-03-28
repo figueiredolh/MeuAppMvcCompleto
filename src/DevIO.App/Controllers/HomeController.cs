@@ -1,4 +1,4 @@
-﻿using DevIO.App.Models;
+﻿using DevIO.Business.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DevIO.App.Controllers
+namespace DevIO.Business.Controllers
 {
     public class HomeController : Controller
     {
