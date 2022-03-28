@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DevIO.Data.Context
 {
-    class MeuDbContext : DbContext
+    public class MeuDbContext : DbContext
     {
         public MeuDbContext(DbContextOptions options) : base(options)
         {

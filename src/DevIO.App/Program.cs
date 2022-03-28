@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DevIO.Business
+namespace DevIO.App
 {
     public class Program
     {
